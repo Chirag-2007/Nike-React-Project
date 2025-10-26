@@ -1,0 +1,41 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    height: 72px;
+    margin: 0 auto;
+    align-items: center;
+}
+nav img{
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+nav ul a{
+    cursor: pointer;
+    list-style: none;
+    color:var(--gray);
+    text-decoration: none;
+}
+button{
+    all: unset;
+    padding: 6px 16px;
+    background: var(--red);
+    height: 32px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+}
+.btn:hover{
+     background-color: rgb(165, 14, 14);
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    overflow: hidden;
+}
